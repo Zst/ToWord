@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedResources" >
+
+    <string name="feature_home">Home Screen</string>
+    <string name="feature_items_list">TODO Items List</string>
+    <string name="feature_item_info">TODO Items List</string>
+    <string name="feature_preferences">Preferences Screen</string>
+</resources>

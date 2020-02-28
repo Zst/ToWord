@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/ToWord.iml" filepath="$PROJECT_DIR$/ToWord.iml" group="ToWord" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="ToWord/app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="project/app" />
+      <module fileurl="file://$PROJECT_DIR$/buildSrc/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc/buildSrc.iml" group="project/buildSrc" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" group="project/common" />
+      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" group="project/core" />
+      <module fileurl="file://$PROJECT_DIR$/features/features.iml" filepath="$PROJECT_DIR$/features/features.iml" group="project/features" />
+      <module fileurl="file://$PROJECT_DIR$/features/home/home.iml" filepath="$PROJECT_DIR$/features/home/home.iml" group="project/features/home" />
+      <module fileurl="file://$PROJECT_DIR$/features/item_info/item_info.iml" filepath="$PROJECT_DIR$/features/item_info/item_info.iml" group="project/features/item_info" />
+      <module fileurl="file://$PROJECT_DIR$/features/items_list/items_list.iml" filepath="$PROJECT_DIR$/features/items_list/items_list.iml" group="project/features/items_list" />
+      <module fileurl="file://$PROJECT_DIR$/features/preferences/preferences.iml" filepath="$PROJECT_DIR$/features/preferences/preferences.iml" group="project/features/preferences" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project.iml" filepath="$PROJECT_DIR$/.idea/project.iml" group="project" />
+      <module fileurl="file://$PROJECT_DIR$/common/ui/ui.iml" filepath="$PROJECT_DIR$/common/ui/ui.iml" group="project/common/ui" />
+      <module fileurl="file://$PROJECT_DIR$/common/views/views.iml" filepath="$PROJECT_DIR$/common/views/views.iml" group="project/common/views" />
     </modules>
   </component>
 </project>
