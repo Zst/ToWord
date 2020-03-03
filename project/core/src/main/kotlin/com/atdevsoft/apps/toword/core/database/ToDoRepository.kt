@@ -4,7 +4,7 @@ import androidx.room.*
 
 interface ToDoRepository<T: ToDo> {
     @Insert
-    suspend fun insertItem(item: T)
+    suspend fun insertItem(item: T): Long
 
     @Update
     suspend fun updateItem(item: T)

@@ -5,5 +5,5 @@ object Config {
     const val DATABASE_VERSION = 1
     const val DATABASE_EXPORT_SCHEMA = false
 
-    const val SORT_ORDER = "updated DESC"
+    const val SORT_ORDER = "is_done, updated DESC"
 }

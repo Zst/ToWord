@@ -6,6 +6,12 @@ import java.util.*
 interface ToDo {
     val id: Long
     val toDoSummary: ToDoSummary
+
+    /**
+     * We rely on the fact that copy method returns an instance of the same class, all
+     * descendants should follow that contract.
+     */
+    fun copy(copySummary: ToDoSummary): ToDo
 }
 
 /**
@@ -14,6 +20,6 @@ interface ToDo {
 data class ToDoSummary(
     val created: Date,
     val updated: Date,
-    val done: Boolean,
+    @ColumnInfo(name = "is_done") val isDone: Boolean,
     @ColumnInfo(name = "would_recommend") val wouldRecommend: Boolean?,
     val comment: String?)

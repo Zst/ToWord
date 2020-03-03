@@ -15,4 +15,6 @@ data class ToRead(
     @Embedded override val toDoSummary: ToDoSummary,
     val book: String,
     val author: String?
-): ToDo
+): ToDo {
+    override fun copy(copySummary: ToDoSummary): ToDo = copy(toDoSummary = copySummary)
+}

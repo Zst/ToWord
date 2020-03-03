@@ -14,4 +14,6 @@ data class ToOther(
     @PrimaryKey(autoGenerate = true) override val id: Long,
     @Embedded override val toDoSummary: ToDoSummary,
     val action: String
-): ToDo
+): ToDo {
+    override fun copy(copySummary: ToDoSummary): ToDo = copy(toDoSummary = copySummary)
+}
