@@ -7,6 +7,7 @@ plugins {
 }
 
 dependencies {
+    implementation(BuildDependencies.APPCOMPAT)
     implementation(BuildDependencies.CONSTRAINT_LAYOUT)
     implementation(BuildDependencies.RECYCLER_VIEW)
 }

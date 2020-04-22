@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="to_watch_title_hint">Title</string>
+    <string name="to_watch_year_hint">Year</string>
+    <string name="to_read_book_hint">Book</string>
+    <string name="to_read_author_hint">Author</string>
+    <string name="to_other_title_hint">To Do</string>
+    <string name="to_do_comment_hint">Comment</string>
+</resources>

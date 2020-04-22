@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="home_tab_to_watch">To Watch</string>
+    <string name="home_tab_to_read">To Read</string>
+    <string name="home_tab_to_do">To Do</string>
+</resources>

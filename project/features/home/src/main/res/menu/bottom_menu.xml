@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UnusedIds">
+    <item
+        android:id="@+id/navigation_watch_graph"
+        android:title="@string/home_tab_to_watch" />
+    <item
+        android:id="@+id/navigation_read_graph"
+        android:title="@string/home_tab_to_read" />
+    <item
+        android:id="@+id/navigation_do_graph"
+        android:title="@string/home_tab_to_do" />
+</menu>
